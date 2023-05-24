@@ -1,0 +1,3 @@
+class MenuListener {
+  void onRefresh() {}
+}
