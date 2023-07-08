@@ -23,7 +23,7 @@ class UIHelper {
 
   static Future<bool> showAlertDialog(BuildContext context, String msg) async {
     // Create button
-    Widget okButton = FlatButton(
+    Widget okButton = TextButton(
       child: Text(
         "OK",
         style: TextStyle(color: AppColors.primaryColor),
